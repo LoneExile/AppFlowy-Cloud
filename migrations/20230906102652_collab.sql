@@ -1,3 +1,4 @@
+SET search_path TO public;
 -- collab update table.
 CREATE TABLE IF NOT EXISTS af_collab (
     oid TEXT NOT NULL,

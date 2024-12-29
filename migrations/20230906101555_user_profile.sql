@@ -1,3 +1,4 @@
+SET search_path TO public;
 -- af_user_profile_view is a view that contains all the user profiles and their latest workspace_id.
 -- a subquery is first used to find the workspace_id of the workspace with the latest updated_at timestamp for each
 -- user. This subquery is then joined with the af_user table to create the view. Note that a LEFT JOIN is used in

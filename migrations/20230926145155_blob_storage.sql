@@ -1,3 +1,4 @@
+SET search_path TO public;
 CREATE TABLE IF NOT EXISTS af_blob_metadata (
     workspace_id UUID REFERENCES af_workspace(workspace_id) ON DELETE CASCADE NOT NULL,
     file_id VARCHAR NOT NULL,

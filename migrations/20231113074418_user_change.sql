@@ -1,3 +1,4 @@
+SET search_path TO public;
 -- Add migration script here
 -- Drop the existing trigger if it exists
 DROP TRIGGER IF EXISTS af_user_change_trigger ON af_user;

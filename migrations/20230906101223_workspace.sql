@@ -1,3 +1,4 @@
+SET search_path TO public;
 -- af_workspace contains all the workspaces. Each workspace contains a list of members defined in af_workspace_member
 CREATE TABLE IF NOT EXISTS af_workspace (
     workspace_id UUID NOT NULL PRIMARY KEY DEFAULT uuid_generate_v4(),

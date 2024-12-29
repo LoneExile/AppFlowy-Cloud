@@ -1,3 +1,4 @@
+SET search_path TO public;
 -- Create the af_roles table
 CREATE TABLE IF NOT EXISTS af_roles (
     id SERIAL PRIMARY KEY,
